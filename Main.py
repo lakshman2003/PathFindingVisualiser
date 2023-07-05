@@ -8,7 +8,7 @@ WIN = pygame.display.set_mode((WIDTH, WIDTH))
 pygame.display.set_caption("Path Finding Algorithms: Press \'D\' for DFS, \'B\' for BFS, \'A\' for Astar, \'K\' for Dijktra")
 
 def main(win,width):
-	ROWS = 40
+	ROWS = 40 #Change the grid dimension here
 	grid = make_grid(ROWS,width)
 
 	start = None
